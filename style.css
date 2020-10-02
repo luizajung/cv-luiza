@@ -1,0 +1,8 @@
+body {
+    background-color: palevioletred;
+}
+
+.fundo-listrado {
+    background-image: url(background-listras.png);
+
+}
