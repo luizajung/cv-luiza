@@ -100,3 +100,51 @@ a {
     margin: 0;
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30pt;
+        margin-bottom: -15px;
+        margin-left: 8%;
+        margin-top: 40px;
+        
+    }
+    
+    h2 {
+        font-size: 16pt;
+        margin-top: 30px;
+        width: 80%;
+    }
+    
+    p {
+        font-size: 12pt;
+    }
+
+    li {
+        width: 100%;
+        float: left;
+        padding-left: 0px;
+    }
+
+    .cargo-bio-foto {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 520px;
+        padding-left: 5%;
+        margin-left: 3%;
+        padding-bottom: 0px
+    }
+    
+    .cargo-bio-foto p {
+        width: 80%;
+    }
+    
+    .minha-foto {
+        width: 300px;
+        position: absolute;
+        right: 0px;
+        top: 560px;
+    }
+
+}
+
