@@ -15,27 +15,27 @@ h2 {
     font-family: 'DM Serif Text', serif;
     color: #0c6d84;
     font-size: 18pt;
-    margin-top:  -150px;
+    margin-top: 40px;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
     color: #353535;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 li {
     list-style-type: none;
-    width: 50%;
+    width: 30%;
     float: left;
     line-height: 50px;
+    padding-left: 80px;
 }
 
 a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
-    font-size: 15pt;
 }
 
 .fundo-listrado {
@@ -43,41 +43,39 @@ a {
     background-attachment: fixed;
 }
 
-.cargo-bio {
-    /*display: flex;
-    align-items: center;
-    width: 90%;
-    background-color: #ffffff;
-    padding-left: 7%;
-    margin-left: 5%;
-    padding-bottom: 0px*/
-}
-
 .cargo-bio-foto {
     display: flex;
-    align-items: center;
-    width: 90%;
+    flex-direction: column;
+    width: 80%;
+    height: 380px;
     background-color: #ffffff;
     padding-left: 7%;
     margin-left: 5%;
     padding-bottom: 0px
 }
 
+.cargo-bio-foto p {
+    width: 650px;
+}
+
 .minha-foto {
     width: 500px;
-    margin-right: 0%;
-    display: flex;
-    position: relative;
-
+    position: absolute;
+    right: 0px;
+    top: 40px;
 }
 
 .redes-sociais {
-    background-color: #118292;
+    background-color: rgb(17, 130, 146);
     width: 100%;
     padding-top: 50px;
-    padding-left: 10%;
     display: flex;
-    padding-bottom: 20px;        
+}
+
+.redes-sociais li {
+    padding-bottom: 20px;
+    margin-left: 0px;   
+    font-size: 13pt;  
 }
 
 .redes-sociais .icone {
@@ -99,4 +97,6 @@ a {
     color: #ffffff;
     font-size: 8pt;
     padding-top: 8px;
+    margin: 0;
 }
+
